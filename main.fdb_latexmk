@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1672495086 "main.bcf" "main.bbl" "main" 1672495103
-  "main.bcf" 1672495103 106483 9172f492cff473c9de632e496def7834 "pdflatex"
+["biber main"] 1672495086 "main.bcf" "main.bbl" "main" 1672495846
+  "main.bcf" 1672495846 106483 9172f492cff473c9de632e496def7834 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1672495095 "c:/Users/masta/lab/testprotokoll/main.tex" "main.pdf" "main" 1672495103
-  "c:/Users/masta/lab/testprotokoll/main.tex" 1672495075 5629 4574bb4fa63a670ae22415777ec3c512 ""
+["pdflatex"] 1672495836 "c:/Users/masta/lab/testprotokoll/main.tex" "main.pdf" "main" 1672495846
+  "c:/Users/masta/lab/testprotokoll/main.tex" 1672495825 7722 b9b826c750fc341b1be9b44843b99bb5 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1668193480 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1668193480 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1668193480 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -260,18 +260,26 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1668200597 4645761 4123604570e0c45243886bbbed7ce94b ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668200758 3063414 b4eff65de719151ad292c885e49d69d2 ""
   "c:/texlive/2022/texmf.cnf" 1668200567 713 614551405fc44b98efbf516466e3c909 ""
+  "figures/10kv.png" 1672495220 1027519 c8ab290af1490d6a5277687a741be8dd ""
+  "figures/20kv.png" 1672495249 920158 0615e17c2aa8151db193846c23559701 ""
+  "figures/30kv.png" 1672495274 940476 f9764efb56564edcb0026dbfb23b5a0a ""
+  "figures/5kv.png" 1672495195 1013047 d73e18b3957acbd69335d23db2b7c0f4 ""
   "figures/aufbau.png" 1672494264 2803344 31d870c609e093da32f133e0de88349a ""
   "figures/auge.png" 1672491241 852871 1f965e9e331b77e2f8a9b875a2d00557 ""
   "figures/auge2.png" 1672491325 1142481 6fd5cc6212eef7426e9d58141551cfd3 ""
   "figures/damage.png" 1672491362 701663 2f98cef63fa71c5060589e30f2d6ae89 ""
   "figures/flugel.png" 1672491389 867476 de89951ecd838ed6be56d4ececa19cd5 ""
   "figures/probe.png" 1671699268 844146 365bceaecee6ac4b5680d48a831763cc ""
+  "figures/simulation10kv.png" 1672495342 28846 68ebf745e0cc40c9ec2ced9c46f261ec ""
+  "figures/simulation20kv.png" 1672495361 31633 25423eb8f6f330b82b7c7155efa4732b ""
+  "figures/simulation30kv.png" 1672495384 32338 3f9171185bf41fdc70446b77aaaf7374 ""
+  "figures/simulation5kv.png" 1672495314 89946 b00535305a305d86d51f23b0cf83d25d ""
   "figures/unbedampft.png" 1672495012 774350 623c13fea0f506a3544d66c08db7e92e ""
-  "main.aux" 1672495103 8342 bd7d0779a768a461004d7bf7769d55d3 "pdflatex"
+  "main.aux" 1672495846 10996 5a1ee0c7a628f926f4d3ca983625a856 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.run.xml" 1672495103 2285 239a1841f518876d76035e649438539d "pdflatex"
-  "main.tex" 1672495075 5629 4574bb4fa63a670ae22415777ec3c512 ""
+  "main.run.xml" 1672495846 2285 239a1841f518876d76035e649438539d "pdflatex"
+  "main.tex" 1672495825 7722 b9b826c750fc341b1be9b44843b99bb5 ""
   "protokoll_template/template.latex/input/shared_preamble.tex" 1671715859 9789 7f5e7738216df4fcd96de896c12c4531 ""
   (generated)
   "main.aux"

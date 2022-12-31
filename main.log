@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.11)  31 DEC 2022 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.11)  31 DEC 2022 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1539,9 +1539,54 @@ File: ./figures/unbedampft.png Graphic file (type png)
 <use ./figures/unbedampft.png>
 Package pdftex.def Info: ./figures/unbedampft.png  used on input line 121.
 (pdftex.def)             Requested size: 213.39568pt x 196.03365pt.
- [4 <./figures/damage.png> <./figures/aufbau.png>] [5 <./figures/unbedampft.png>] [6]
+ [4 <./figures/damage.png> <./figures/aufbau.png>]
+<./figures/5kv.png, id=61, 628.749pt x 579.3645pt>
+File: ./figures/5kv.png Graphic file (type png)
+<use ./figures/5kv.png>
+Package pdftex.def Info: ./figures/5kv.png  used on input line 140.
+(pdftex.def)             Requested size: 213.39568pt x 196.63655pt.
+ [5 <./figures/unbedampft.png>]
+<./figures/simulation5kv.png, id=69, 512.51476pt x 311.9655pt>
+File: ./figures/simulation5kv.png Graphic file (type png)
+<use ./figures/simulation5kv.png>
+Package pdftex.def Info: ./figures/simulation5kv.png  used on input line 148.
+(pdftex.def)             Requested size: 213.39568pt x 129.89168pt.
+<./figures/10kv.png, id=70, 626.34pt x 577.55775pt>
+File: ./figures/10kv.png Graphic file (type png)
+<use ./figures/10kv.png>
+Package pdftex.def Info: ./figures/10kv.png  used on input line 157.
+(pdftex.def)             Requested size: 213.39568pt x 196.77242pt.
+ [6 <./figures/5kv.png> <./figures/simulation5kv.png>]
+<./figures/simulation10kv.png, id=80, 464.33475pt x 282.45525pt>
+File: ./figures/simulation10kv.png Graphic file (type png)
+<use ./figures/simulation10kv.png>
+Package pdftex.def Info: ./figures/simulation10kv.png  used on input line 165.
+(pdftex.def)             Requested size: 213.39568pt x 129.8103pt.
+<./figures/20kv.png, id=81, 626.94225pt x 575.14874pt>
+File: ./figures/20kv.png Graphic file (type png)
+<use ./figures/20kv.png>
+Package pdftex.def Info: ./figures/20kv.png  used on input line 174.
+(pdftex.def)             Requested size: 213.39568pt x 195.76738pt.
+ [7 <./figures/10kv.png> <./figures/simulation10kv.png>]
+<./figures/simulation20kv.png, id=91, 466.1415pt x 281.853pt>
+File: ./figures/simulation20kv.png Graphic file (type png)
+<use ./figures/simulation20kv.png>
+Package pdftex.def Info: ./figures/simulation20kv.png  used on input line 182.
+(pdftex.def)             Requested size: 213.39568pt x 129.03035pt.
+<./figures/30kv.png, id=92, 625.73775pt x 578.16pt>
+File: ./figures/30kv.png Graphic file (type png)
+<use ./figures/30kv.png>
+Package pdftex.def Info: ./figures/30kv.png  used on input line 192.
+(pdftex.def)             Requested size: 213.39568pt x 197.16287pt.
+ [8 <./figures/20kv.png> <./figures/simulation20kv.png>]
+<./figures/simulation30kv.png, id=101, 464.937pt x 280.04625pt>
+File: ./figures/simulation30kv.png Graphic file (type png)
+<use ./figures/simulation30kv.png>
+Package pdftex.def Info: ./figures/simulation30kv.png  used on input line 200.
+(pdftex.def)             Requested size: 213.39568pt x 128.53653pt.
+ [9 <./figures/30kv.png> <./figures/simulation30kv.png>] [10]
 
-LaTeX Warning: Empty bibliography on input line 157.
+LaTeX Warning: Empty bibliography on input line 233.
 
 
 AED: lastpage setting LastPage
@@ -1561,18 +1606,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48462 strings out of 474971
- 1024129 string characters out of 5780120
- 1939770 words of memory out of 5000000
- 69245 multiletter control sequences out of 15000+600000
+ 48538 strings out of 474971
+ 1025784 string characters out of 5780120
+ 1940490 words of memory out of 5000000
+ 69301 multiletter control sequences out of 15000+600000
  502461 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  130i,19n,123p,10701b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (6 pages, 6980012 bytes).
+Output written on main.pdf (10 pages, 10199396 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
