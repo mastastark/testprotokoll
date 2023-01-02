@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.11)  2 JAN 2023 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.11)  2 JAN 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1634,8 +1634,80 @@ File: ./figures/schichtdicke.png Graphic file (type png)
 Package pdftex.def Info: ./figures/schichtdicke.png  used on input line 260.
 (pdftex.def)             Requested size: 341.43437pt x 314.42838pt.
  [11 <./figures/bse.png>] [12 <./figures/schichtdicke.png>] [13]
+<./figures/edx1.png, id=157, 1406.856pt x 1052.733pt>
+File: ./figures/edx1.png Graphic file (type png)
+<use ./figures/edx1.png>
+Package pdftex.def Info: ./figures/edx1.png  used on input line 326.
+(pdftex.def)             Requested size: 341.43437pt x 255.48824pt.
 
-LaTeX Warning: Empty bibliography on input line 327.
+
+LaTeX Warning: Citation 'sein_foto' on page 14 undefined on input line 328.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 14 undefined on input line 328.
+
+<./figures/edx2.png, id=158, 1406.856pt x 1052.733pt>
+File: ./figures/edx2.png Graphic file (type png)
+<use ./figures/edx2.png>
+Package pdftex.def Info: ./figures/edx2.png  used on input line 334.
+(pdftex.def)             Requested size: 341.43437pt x 255.48824pt.
+
+LaTeX Warning: Citation 'sein_foto' on page 14 undefined on input line 336.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 14 undefined on input line 336.
+
+<./figures/edx3.png, id=159, 1404.2061pt x 1052.733pt>
+File: ./figures/edx3.png Graphic file (type png)
+<use ./figures/edx3.png>
+Package pdftex.def Info: ./figures/edx3.png  used on input line 341.
+(pdftex.def)             Requested size: 341.43437pt x 255.97014pt.
+
+LaTeX Warning: Citation 'sein_foto' on page 14 undefined on input line 343.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 14 undefined on input line 343.
+
+[14 <./figures/edx1.png>]
+<./figures/edx4.png, id=168, 1398.1836pt x 1052.733pt>
+File: ./figures/edx4.png Graphic file (type png)
+<use ./figures/edx4.png>
+Package pdftex.def Info: ./figures/edx4.png  used on input line 349.
+(pdftex.def)             Requested size: 341.43437pt x 257.0785pt.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 15 undefined on input line 351.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 15 undefined on input line 351.
+
+[15 <./figures/edx2.png> <./figures/edx3.png>]
+<./figures/beschichtung.png, id=176, 1419.8646pt x 1052.733pt>
+File: ./figures/beschichtung.png Graphic file (type png)
+<use ./figures/beschichtung.png>
+Package pdftex.def Info: ./figures/beschichtung.png  used on input line 357.
+(pdftex.def)             Requested size: 341.43437pt x 253.14297pt.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 16 undefined on input line 359.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 16 undefined on input line 359.
+
+<./figures/keramik.png, id=177, 1435.5231pt x 1053.2148pt>
+File: ./figures/keramik.png Graphic file (type png)
+<use ./figures/keramik.png>
+Package pdftex.def Info: ./figures/keramik.png  used on input line 365.
+(pdftex.def)             Requested size: 341.43437pt x 250.49467pt.
+
+LaTeX Warning: Citation 'sein_foto' on page 16 undefined on input line 367.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 16 undefined on input line 367.
+
+[16 <./figures/edx4.png> <./figures/beschichtung.png>] [17 <./figures/keramik.png>]
+
+LaTeX Warning: Empty bibliography on input line 392.
 
 
 AED: lastpage setting LastPage
@@ -1655,18 +1727,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48575 strings out of 474971
- 1026475 string characters out of 5780120
- 1940821 words of memory out of 5000000
- 69328 multiletter control sequences out of 15000+600000
+ 48635 strings out of 474971
+ 1027637 string characters out of 5780120
+ 1941297 words of memory out of 5000000
+ 69372 multiletter control sequences out of 15000+600000
  502461 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  130i,19n,123p,10701b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (13 pages, 12260879 bytes).
+Output written on main.pdf (17 pages, 22085746 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
