@@ -1,4 +1,4 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[121] biber-MSWIN32:340> INFO - === 
-[165] Biber.pm:418> INFO - Reading 'main.bcf'
+[152] biber-MSWIN32:340> INFO - === 
+[206] Biber.pm:418> INFO - Reading 'main.bcf'

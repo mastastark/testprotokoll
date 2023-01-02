@@ -319,7 +319,9 @@ Dieses vorgehen wurde nun für die Keramikprobe an verschiedenen Positionen wied
 in \autoref{fig:position1} bis \autoref{fig:position4},
 %todo geht die referenz besser?
 steht dabei dafür, dass die Analyse weiter innen an der Probe durchgeführt wurde. Auch wurde nur eine Analyse
-der Beschichtung, \autoref{fig:beschichtung}, und von reinem Keramik, \autoref{fig:keramik}, durchgeführt. 
+der Beschichtung, \autoref{fig:beschichtung}, und von reinem Keramik, \autoref{fig:keramik}, durchgeführt.
+Da hier mit einem fokussierten Elektronenstrahl gearbeitet wird, ist besonders darauf zu achten, keinen "Beam-Damage"
+anzurichten.
 
 \begin{figure}[H]
 	\begin{center}
@@ -375,6 +377,59 @@ weiter man sich vom Rand wegbewegt.
 
 
 \section{Quantitative EDX-Analyse}
+
+Mithilfe der EDX-Analyse kann auch eine quantitative Aussage über eine Probe getroffen werden. Dazu wird eine 10 c 
+Münze als Probe in den Aufbau gegeben und die EDX-Analyse durchgeführt. Bei der Whl der Position ist darauf zu 
+achten, eine Stelle auszuwählen, an der möglichst keine Verunreinigungen und eine glatte Oberfläche vorliegen, wie
+in \autoref{fig:munze} sichtbar. Die Analyse wurde mithilfe von 2 verschiedenen Programmen durchgeführt. Das 
+entsprechende Ergebnis ist auch in den \autoref{fig:qualitativ1} und \autoref{fig:qualitativ2} ersichtlich.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width =0.5\textwidth]{./figures/munze.png}
+	\end{center}
+	\caption{SE Bild der Münzoberfläche \cite{sein_foto}}
+    \label{fig:munze}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width =0.8\textwidth]{./figures/qualitativ1.png}
+	\end{center}
+	\caption{Erzeugtes Spektrum der Münzzusammensetzung \cite{sein_foto}}
+    \label{fig:qualitativ1}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width =0.8\textwidth]{./figures/qualitativ2.png}
+	\end{center}
+	\caption{Anderes erzeugtes Spektrum der Münzzusammensetzung \cite{sein_foto}}
+    \label{fig:qualitativ2}
+\end{figure}
+
+Die so erhaltenen Zusammensetzungen sind in folgender \autoref{tab:zusammensetzung} den entsprechenden Literaturwerten 
+aus \cite{munzen} gegenübergestellt.
+
+\begin{table}[H]
+	\caption[Gegenüberstellung der erhaltene Zusammensetzung aus der EDX-Analyse der 10 c Münze]
+	{Gegenüberstellung der erhaltene Zusammensetzung aus der EDX-Analyse der 10 c Münze\\
+	Al $\dots$ Aluminium \\
+	$P_{m1} \dots$ erhaltener prozentualer Anteil nach Methode 1 \\
+	$P_{m2} \dots$ erhaltener prozentualer Anteil nach Methode 2 \\
+	$P_{lit} \dots$ erhaltener prozentualer Anteil laut Literatur \cite{munzen}}
+	\begin{center}
+	\begin{tabular}{|l|l|l|l|}
+	\hline
+	\textbf{Element}   & $P_{m1}$ / \%       & $P_{m2}$ / \%       & $P_{lit}$ / \%    \\ \hline
+	Al                 & \SI{4.95(9)}{}      & \SI{4.60(5)}{}      & \SI{5}{}          \\ \hline
+	Cu                 & \SI{89.2(11)}{}     & \SI{88.68(5)}{}     & \SI{89}{}         \\ \hline
+	Zn                 & \SI{4.6(4)}{}       & \SI{5.12(5)}{}      & \SI{5}{}          \\ \hline
+	Sn                 & \SI{1.23(13)}{}     & \SI{1.61(5)}{}      & \SI{1}{}          \\ \hline
+	\end{tabular}
+	\end{center}
+	\label{tab:zusammensetzung}
+\end{table}
 
 
 \section{Zusammenfassung}
