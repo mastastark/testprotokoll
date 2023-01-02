@@ -60,6 +60,8 @@ verwiesen. Der Astigmatismus durch eine entsprechende Anpassung im jeweiligen Me
 Im folgenden ist eine Auswahl der erzeugten Bilder angeführt. In \autoref{fig:auge} und \autoref{fig:auge2} sind Aufnahmen
 des Facettenauges sichtbar. In \autoref{fig:flugel} sieht man die Struktur des Flügels und in \autoref{fig:damage} ist eine
 komisch geformte Struktur sichtbar, die auf einen Fehler in der Bedampfungsschicht zurückzuführen ist.
+Generell ist zu Beachten, dass der Elektronenstrahl nicht zu lange fokussiert auf eine bestimmte Stelle gerichtet wird, um
+keinen "Beam-Damage" zu verursachen.
 
 \begin{figure}[H]
 	\begin{center}
@@ -116,6 +118,7 @@ den unbeschichteten Zustand, wie in \autoref{fig:unbeschichtet} sichtbar, wird d
 Bewegungen der Struktur sichtbar sind, was an den ruckartigen Unterbrechungen in folgender \autoref{fig:unbeschichtet}
 sichtbar wird. Besonders leicht erkennbar werden diese Bewegungen, wenn mehrere Bilder aufgezeichnet werden und diese 
 dann als Film abgespielt werden, was im Rahmen dieses Protokolls aber leider nicht geteilt werden kann.
+
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/unbedampft.png}
@@ -126,12 +129,13 @@ dann als Film abgespielt werden, was im Rahmen dieses Protokolls aber leider nic
 
 \subsection{Variation der Beschleunigungsspannung}
 
+In diesem Teil des Versuchs wird die Beschleunigungsspannung der Elektronen variiert. Wenn diese größer ist, können die 
+Elektronen in tiefere SChichten der Probe eindringen, weshalb die oberen, dünnen Schichten transparent wirken. 
 
-
-
-
-
-
+%todo max du hast die referenzen einmal zusammengefasst i finds aber nicht mehr
+Die erzeugten Bilder sind in \autoref{{fig:5kv},{fig:10kv},{fig:20kv},{fig:30kv}} ersichtlich. 
+Zusätzlich wurden Monte Carlo Simulationen zur Verfügung gestellt, die die Bewegung der Elektronen nach den Streuungen
+darstellen, siehe \autoref{fig:simulation5kv},\autoref{fig:simulation10kv},\autoref{fig:simulation20kv},\autoref{fig:simulation30kv}.
 
 %todo es wäre schön wenn auch hier immer Bild und simulation nebeneinander wären
 
@@ -156,7 +160,7 @@ dann als Film abgespielt werden, was im Rahmen dieses Protokolls aber leider nic
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/10kv.png}
 	\end{center}
-	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt}}
+	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt} \cite{sein_foto}}
     \label{fig:10kv}
 \end{figure}
 
@@ -164,7 +168,7 @@ dann als Film abgespielt werden, was im Rahmen dieses Protokolls aber leider nic
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/simulation10kv.png}
 	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt}}
+	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt} \cite{sein_foto}}
     \label{fig:simulation10kv}
 \end{figure}
 
@@ -181,7 +185,7 @@ dann als Film abgespielt werden, was im Rahmen dieses Protokolls aber leider nic
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/simulation20kv.png}
 	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{20}{\kilo\volt}}
+	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{20}{\kilo\volt} \cite{sein_foto}}
     \label{fig:simulation20kv}
 \end{figure}
 
@@ -199,17 +203,107 @@ dann als Film abgespielt werden, was im Rahmen dieses Protokolls aber leider nic
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/simulation30kv.png}
 	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{30}{\kilo\volt}}
+	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{30}{\kilo\volt} \cite{sein_foto}}
     \label{fig:simulation30kv}
 \end{figure}
 
+In den erzeugten Fotos ist klar erkennbar, dass bei den kleinen Spannungen besonders die Oberfläche und damit die 
+Topografie detektiert wird. Wird die Spannung erhöht werden diese Feinheiten immer undeutlicher und das Bild ähnelt 
+immer mehr einer Röntgenaufnahme. Auch an den Simulationen ist klar ersichtlich, dass bei der niedrigen Spannung viele
+Elektronen an der Oberfläche gestreut werden und die Anderen in die Probe eindringen. Bei der höheren Beschleunigungsspannung
+durchdringen diese jedoch das Gewebe, wodurch die erkennbaren Effekte zu Stande kommen. Die SE, die großteils für die 
+Untersuchung der Oberflächentopografie genutzt werden, spielen bei diesem Teil also nicht so eine große Rolle, wie die
+BSE und die Röntgenquanten.
+
 \section{Keramik}
 
+Nun wird eine Keramikprobe in den Versuchsaufbau gegeben.
 
 \subsection{Vergleich SE- und BSE-Abbildung}
+Bei der Keramikprobe wird nun die gleiche Position jeweils an der gleichen Stelle nur unter Betrachtung der SE oder der BSE
+untersucht. 2 so erzeugte Bilder sind nun beispielhaft in \autoref{fig:se} und \autoref{fig:bse} sichtbar.
+
+%todo bitte nebeieinander
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width =0.5\textwidth]{./figures/se.png}
+	\end{center}
+	\caption{Erzeugtes Bild mit SE an einer Keramikprobe}
+    \label{fig:se}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width =0.5\textwidth]{./figures/bse.png}
+	\end{center}
+	\caption{Gleiches Bild mit BSE an der Keramikprobe}
+    \label{fig:bse}
+\end{figure}
+
+Es wird klar ersichtlich, dass bei dem, mit SE erzeugten Bild, insbesondere insbesondere die Oberflächentopografie sichtbar
+wird, was besonders an der Erhöhung in der Mitte des Bild erkannt werden kann. Der Grund hierfür ist, dass diese Elektronen
+weniger Energie haben und daher nicht so weit in die Probe eindringen. Die BSE dringen in die Probe ein und werden von den 
+größeren Atomen stärker zurückgestreut, wodurch ein stärkerer Kontrast, der sogenannte Materialkontrast, sichtbar wird.
 
 
 \subsection{Bestimmung der Schichtdicke}
+
+Um die Schichtdicke der Keramikprobe zu bestimmen, wird am BSE Bild die entsprechende Schicht vermessen. Mithilfe des automatisch
+angezeigten Maßstabs, kann nun die tatsächliche Schichtdicke errechnet werden. Da offensichtlich keine homogen verteilte
+Dicke vorliegt, wird diese Messung für mehrere Punkte wiederholt, wie in \autoref{fig:schichtdicke} ersichtlich. Dabei wird 
+darauf geachtet, immer den Abstand zu bestimmen, der möglichst orthogonal auf den Rand der Probe liegt. Zusätzlich wurde,
+wie in \autoref{fig:schichtdicke} ersichtlich, rein der Interesse halber, auch noch die Größe von 2 Poren bestimmt.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width =0.8\textwidth]{./figures/schichtdicke.png}
+	\end{center}
+	\caption{Messung der Schichtdicke auf BSE Bild der Keramikprobe}
+    \label{fig:schichtdicke}
+\end{figure}
+
+In folgender \autoref{tab:messwerte} sind die erhaltenen Messwerte der Schichtdicke aufgelistet. Die Unsicherheit wurde dabei 
+als 1 Pixel angenommen, was im konkreten Fall \SI{100}{\nano\m} entspricht.
+
+
+\begin{table}[H]
+	\caption[Erhaltene Messwerte für die Schichtdicke]{Erhaltene Messwerte für die Schichtdicke\\
+	$m_i \dots$ entsprechender Messpunkt\\
+	$d \dots$ gemessene Schichtdicke in nm mit einer Unsicherheit von \SI{100}{\nano\m}}
+	\begin{center}
+	\begin{tabular}{|l|l|}
+	\hline
+	                 & $d$ / nm         \\ \hline
+	$m_{1}$          & \SI{4330}{}      \\ \hline
+	$m_{2}$          & \SI{5350}{}      \\ \hline
+	$m_{3}$          & \SI{2380}{}      \\ \hline
+	$m_{4}$          & \SI{2950}{}      \\ \hline
+	$m_{7}$          & \SI{2120}{}      \\ \hline
+	$m_{8}$          & \SI{2380}{}      \\ \hline
+	$m_{9}$          & \SI{2190}{}      \\ \hline
+	$m_{10}$         & \SI{2140}{}      \\ \hline
+
+	\end{tabular}
+	\end{center}
+	\label{tab:messwerte}
+\end{table}
+
+%genau: 2979.14 st 1132
+
+Aus diesen Werten ergibt sich folgende mittlere Schichtdicke $\bar{d}$ mit der Standardabweichung $\sigma$:
+
+\begin{align*}
+	\bar{d} = \SI{3000}{\nano\m} \\
+	\sigma = \SI{1200}{\nano\m}
+\end{align*}
+
+Für die 2 vermessenen Poren ergeben sich folgende Durchmesser:
+
+\begin{align*}
+	d_{gross} = \SI{12900(100)}{\nano\m} \\
+	d_{klein} = \SI{2230(100)}{\nano\m}
+\end{align*}
 
 
 \section{Qualitative EDX-Analyse}

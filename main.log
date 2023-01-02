@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.11)  31 DEC 2022 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.11)  2 JAN 2023 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1510,83 +1510,132 @@ Overfull \vbox (1.79999pt too high) has occurred while \output is active []
 <./figures/auge.png, id=28, 626.94225pt x 576.9555pt>
 File: ./figures/auge.png Graphic file (type png)
 <use ./figures/auge.png>
-Package pdftex.def Info: ./figures/auge.png  used on input line 66.
+Package pdftex.def Info: ./figures/auge.png  used on input line 68.
 (pdftex.def)             Requested size: 213.39568pt x 196.38235pt.
 <./figures/auge2.png, id=30, 628.14674pt x 576.9555pt>
 File: ./figures/auge2.png Graphic file (type png)
 <use ./figures/auge2.png>
-Package pdftex.def Info: ./figures/auge2.png  used on input line 74.
+Package pdftex.def Info: ./figures/auge2.png  used on input line 76.
 (pdftex.def)             Requested size: 213.39568pt x 196.0038pt.
  [2 <./figures/auge.png>]
 <./figures/flugel.png, id=40, 627.5445pt x 576.9555pt>
 File: ./figures/flugel.png Graphic file (type png)
 <use ./figures/flugel.png>
-Package pdftex.def Info: ./figures/flugel.png  used on input line 82.
+Package pdftex.def Info: ./figures/flugel.png  used on input line 84.
 (pdftex.def)             Requested size: 213.39568pt x 196.18867pt.
 <./figures/damage.png, id=41, 628.14674pt x 576.9555pt>
 File: ./figures/damage.png Graphic file (type png)
 <use ./figures/damage.png>
-Package pdftex.def Info: ./figures/damage.png  used on input line 90.
+Package pdftex.def Info: ./figures/damage.png  used on input line 92.
 (pdftex.def)             Requested size: 213.39568pt x 196.0038pt.
  [3 <./figures/auge2.png> <./figures/flugel.png>]
 <./figures/aufbau.png, id=49, 776.9025pt x 582.978pt>
 File: ./figures/aufbau.png Graphic file (type png)
 <use ./figures/aufbau.png>
-Package pdftex.def Info: ./figures/aufbau.png  used on input line 103.
+Package pdftex.def Info: ./figures/aufbau.png  used on input line 105.
 (pdftex.def)             Requested size: 213.39568pt x 160.12819pt.
-<./figures/unbedampft.png, id=52, 629.35126pt x 578.16pt>
+ [4 <./figures/damage.png> <./figures/aufbau.png>]
+<./figures/unbedampft.png, id=60, 629.35126pt x 578.16pt>
 File: ./figures/unbedampft.png Graphic file (type png)
 <use ./figures/unbedampft.png>
-Package pdftex.def Info: ./figures/unbedampft.png  used on input line 121.
+Package pdftex.def Info: ./figures/unbedampft.png  used on input line 124.
 (pdftex.def)             Requested size: 213.39568pt x 196.03365pt.
- [4 <./figures/damage.png> <./figures/aufbau.png>]
-<./figures/5kv.png, id=61, 628.749pt x 579.3645pt>
+
+
+LaTeX Warning: Reference `{fig:5kv},{fig:10kv},{fig:20kv},{fig:30kv}' on page 5 undefined on input line 136.
+
+<./figures/5kv.png, id=65, 628.749pt x 579.3645pt>
 File: ./figures/5kv.png Graphic file (type png)
 <use ./figures/5kv.png>
-Package pdftex.def Info: ./figures/5kv.png  used on input line 140.
+Package pdftex.def Info: ./figures/5kv.png  used on input line 144.
 (pdftex.def)             Requested size: 213.39568pt x 196.63655pt.
- [5 <./figures/unbedampft.png>]
-<./figures/simulation5kv.png, id=69, 512.51476pt x 311.9655pt>
+[5 <./figures/unbedampft.png>]
+<./figures/simulation5kv.png, id=78, 512.51476pt x 311.9655pt>
 File: ./figures/simulation5kv.png Graphic file (type png)
 <use ./figures/simulation5kv.png>
-Package pdftex.def Info: ./figures/simulation5kv.png  used on input line 148.
+Package pdftex.def Info: ./figures/simulation5kv.png  used on input line 152.
 (pdftex.def)             Requested size: 213.39568pt x 129.89168pt.
-<./figures/10kv.png, id=70, 626.34pt x 577.55775pt>
+<./figures/10kv.png, id=79, 626.34pt x 577.55775pt>
 File: ./figures/10kv.png Graphic file (type png)
 <use ./figures/10kv.png>
-Package pdftex.def Info: ./figures/10kv.png  used on input line 157.
+Package pdftex.def Info: ./figures/10kv.png  used on input line 161.
 (pdftex.def)             Requested size: 213.39568pt x 196.77242pt.
- [6 <./figures/5kv.png> <./figures/simulation5kv.png>]
-<./figures/simulation10kv.png, id=80, 464.33475pt x 282.45525pt>
+
+
+LaTeX Warning: Citation 'sein_foto' on page 6 undefined on input line 163.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 6 undefined on input line 163.
+
+[6 <./figures/5kv.png> <./figures/simulation5kv.png>]
+<./figures/simulation10kv.png, id=87, 464.33475pt x 282.45525pt>
 File: ./figures/simulation10kv.png Graphic file (type png)
 <use ./figures/simulation10kv.png>
-Package pdftex.def Info: ./figures/simulation10kv.png  used on input line 165.
+Package pdftex.def Info: ./figures/simulation10kv.png  used on input line 169.
 (pdftex.def)             Requested size: 213.39568pt x 129.8103pt.
-<./figures/20kv.png, id=81, 626.94225pt x 575.14874pt>
+
+
+LaTeX Warning: Citation 'sein_foto' on page 7 undefined on input line 171.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 7 undefined on input line 171.
+
+<./figures/20kv.png, id=88, 626.94225pt x 575.14874pt>
 File: ./figures/20kv.png Graphic file (type png)
 <use ./figures/20kv.png>
-Package pdftex.def Info: ./figures/20kv.png  used on input line 174.
+Package pdftex.def Info: ./figures/20kv.png  used on input line 178.
 (pdftex.def)             Requested size: 213.39568pt x 195.76738pt.
- [7 <./figures/10kv.png> <./figures/simulation10kv.png>]
-<./figures/simulation20kv.png, id=91, 466.1415pt x 281.853pt>
+[7 <./figures/10kv.png> <./figures/simulation10kv.png>]
+<./figures/simulation20kv.png, id=97, 466.1415pt x 281.853pt>
 File: ./figures/simulation20kv.png Graphic file (type png)
 <use ./figures/simulation20kv.png>
-Package pdftex.def Info: ./figures/simulation20kv.png  used on input line 182.
+Package pdftex.def Info: ./figures/simulation20kv.png  used on input line 186.
 (pdftex.def)             Requested size: 213.39568pt x 129.03035pt.
-<./figures/30kv.png, id=92, 625.73775pt x 578.16pt>
+
+
+LaTeX Warning: Citation 'sein_foto' on page 8 undefined on input line 188.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 8 undefined on input line 188.
+
+<./figures/30kv.png, id=98, 625.73775pt x 578.16pt>
 File: ./figures/30kv.png Graphic file (type png)
 <use ./figures/30kv.png>
-Package pdftex.def Info: ./figures/30kv.png  used on input line 192.
+Package pdftex.def Info: ./figures/30kv.png  used on input line 196.
 (pdftex.def)             Requested size: 213.39568pt x 197.16287pt.
- [8 <./figures/20kv.png> <./figures/simulation20kv.png>]
-<./figures/simulation30kv.png, id=101, 464.937pt x 280.04625pt>
+[8 <./figures/20kv.png> <./figures/simulation20kv.png>]
+<./figures/simulation30kv.png, id=106, 464.937pt x 280.04625pt>
 File: ./figures/simulation30kv.png Graphic file (type png)
 <use ./figures/simulation30kv.png>
-Package pdftex.def Info: ./figures/simulation30kv.png  used on input line 200.
+Package pdftex.def Info: ./figures/simulation30kv.png  used on input line 204.
 (pdftex.def)             Requested size: 213.39568pt x 128.53653pt.
- [9 <./figures/30kv.png> <./figures/simulation30kv.png>] [10]
 
-LaTeX Warning: Empty bibliography on input line 233.
+
+LaTeX Warning: Citation 'sein_foto' on page 9 undefined on input line 206.
+
+
+LaTeX Warning: Citation 'sein_foto' on page 9 undefined on input line 206.
+
+[9 <./figures/30kv.png> <./figures/simulation30kv.png>]
+<./figures/se.png, id=116, 626.94225pt x 578.16pt>
+File: ./figures/se.png Graphic file (type png)
+<use ./figures/se.png>
+Package pdftex.def Info: ./figures/se.png  used on input line 230.
+(pdftex.def)             Requested size: 213.39568pt x 196.79234pt.
+<./figures/bse.png, id=117, 627.5445pt x 577.55775pt>
+File: ./figures/bse.png Graphic file (type png)
+<use ./figures/bse.png>
+Package pdftex.def Info: ./figures/bse.png  used on input line 238.
+(pdftex.def)             Requested size: 213.39568pt x 196.39346pt.
+ [10 <./figures/se.png>]
+<./figures/schichtdicke.png, id=129, 624.53325pt x 575.14874pt>
+File: ./figures/schichtdicke.png Graphic file (type png)
+<use ./figures/schichtdicke.png>
+Package pdftex.def Info: ./figures/schichtdicke.png  used on input line 260.
+(pdftex.def)             Requested size: 341.43437pt x 314.42838pt.
+ [11 <./figures/bse.png>] [12 <./figures/schichtdicke.png>] [13]
+
+LaTeX Warning: Empty bibliography on input line 327.
 
 
 AED: lastpage setting LastPage
@@ -1606,18 +1655,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48538 strings out of 474971
- 1025784 string characters out of 5780120
- 1940490 words of memory out of 5000000
- 69301 multiletter control sequences out of 15000+600000
+ 48575 strings out of 474971
+ 1026475 string characters out of 5780120
+ 1940821 words of memory out of 5000000
+ 69328 multiletter control sequences out of 15000+600000
  502461 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  130i,19n,123p,10701b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (10 pages, 10199396 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (13 pages, 12260879 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
