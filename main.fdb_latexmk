@@ -1,15 +1,16 @@
 # Fdb version 3
-["biber main"] 1672669399 "main.bcf" "main.bbl" "main" 1672673463
-  "main.bcf" 1672673462 108353 c5381e1393aa30f63208e1dfc922813c "pdflatex"
+["biber main"] 1672677695 "main.bcf" "main.bbl" "main" 1672677905
+  "main.bcf" 1672677904 108617 6b26cc94c9e92d1608a0fc0c28de6491 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1672673443 "c:/Users/masta/lab/testprotokoll/main.tex" "main.pdf" "main" 1672673463
-  "c:/Users/masta/lab/testprotokoll/main.tex" 1672673441 20010 2e293f3111746973c78c5e6ec17c7851 ""
+["pdflatex"] 1672677886 "c:/Users/masta/lab/testprotokoll/main.tex" "main.pdf" "main" 1672677905
+  "c:/Users/masta/lab/testprotokoll/main.tex" 1672677864 22585 704d2c4c03247b5d61201ce4f2f13bdc ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1668193480 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1668193480 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1668193480 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1668193480 2327 9d6df24f9c4f7368395224341a95523a ""
+  "c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1668193480 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1668189126 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1668188104 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1668184485 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -32,6 +33,7 @@
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1668193480 11888 6841b91e46b65cf41a49b160e6e74130 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm" 1668193480 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm" 1668193480 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm" 1668193481 1596 1d4548788e389ded56d0b01b28377882 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1668193481 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb" 1668193481 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1668193481 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
@@ -220,6 +222,7 @@
   "c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd" 1668193481 1882 28c08db1407ebff35a658fd141753d16 ""
   "c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd" 1668193481 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd" 1668193481 1641 f48673bce41ac279099d0c9523459753 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd" 1668193481 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def" 1668193698 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty" 1668193698 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "c:/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty" 1668194559 62269 5c1837a5bc5db4c0d255eedc225ca44b ""
@@ -269,6 +272,7 @@
   "figures/30kv.png" 1672495274 940476 f9764efb56564edcb0026dbfb23b5a0a ""
   "figures/5kv.png" 1672495195 1013047 d73e18b3957acbd69335d23db2b7c0f4 ""
   "figures/aufbau.png" 1672494264 2803344 31d870c609e093da32f133e0de88349a ""
+  "figures/aufbaurem.png" 1672677516 259386 56191500580fe1e8fbc564e38721ea54 ""
   "figures/auge.png" 1672491241 852871 1f965e9e331b77e2f8a9b875a2d00557 ""
   "figures/auge2.png" 1672491325 1142481 6fd5cc6212eef7426e9d58141551cfd3 ""
   "figures/beschichtung.png" 1671699267 1675765 a14c99d5ad1bbb552e595971b15fa8bf ""
@@ -291,11 +295,11 @@
   "figures/simulation30kv.png" 1672495384 32338 3f9171185bf41fdc70446b77aaaf7374 ""
   "figures/simulation5kv.png" 1672495314 89946 b00535305a305d86d51f23b0cf83d25d ""
   "figures/unbedampft.png" 1672495012 774350 623c13fea0f506a3544d66c08db7e92e ""
-  "main.aux" 1672673462 17157 cb4dcd91dd96bc1c6ba40e40aea186f5 "pdflatex"
+  "main.aux" 1672677904 17650 4b69f2667d456b64273cb05e3249e6d2 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.run.xml" 1672673462 2285 239a1841f518876d76035e649438539d "pdflatex"
-  "main.tex" 1672673441 20010 2e293f3111746973c78c5e6ec17c7851 ""
+  "main.run.xml" 1672677904 2285 239a1841f518876d76035e649438539d "pdflatex"
+  "main.tex" 1672677864 22585 704d2c4c03247b5d61201ce4f2f13bdc ""
   "protokoll_template/template.latex/input/shared_preamble.tex" 1671715859 9789 7f5e7738216df4fcd96de896c12c4531 ""
   (generated)
   "main.aux"
