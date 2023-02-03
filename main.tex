@@ -12,6 +12,33 @@
 	mikroskopie}
 % Fußzeile
 
+\makeatletter
+\newcommand\Autoref[1]{\@first@ref#1,@}
+\def\@throw@dot#1.#2@{#1}% discard everything after the dot
+\def\@set@refname#1{%    % set \@refname to autoefname+s using \getrefbykeydefault
+	\edef\@tmp{\getrefbykeydefault{#1}{anchor}{}}%
+	\xdef\@tmp{\expandafter\@throw@dot\@tmp.@}%
+	\ltx@IfUndefined{\@tmp autorefnameplural}%
+	{\def\@refname{\@nameuse{\@tmp autorefname}s}}%
+	{\def\@refname{\@nameuse{\@tmp autorefnameplural}}}%
+}
+\def\@first@ref#1,#2{%
+	\ifx#2@\autoref{#1}\let\@nextref\@gobble% only one ref, revert to normal \autoref
+	\else%
+		\@set@refname{#1}%  set \@refname to autoref name
+		\@refname~\ref{#1}% add autoefname and first reference
+		\let\@nextref\@next@ref% push processing to \@next@ref
+	\fi%
+	\@nextref#2%
+}
+\def\@next@ref#1,#2{%
+	\ifx#2@ and~\ref{#1}\let\@nextref\@gobble% at end: print and+\ref and stop
+	\else,~\ref{#1}% print  ,+\ref and continue
+	\fi%
+	\@nextref#2%
+}
+\makeatother
+
 \begin{document}
 
 \section{Grundlagen}
@@ -19,7 +46,7 @@
 %(max. 1 Seite)
 Anmerkung: Aufgrund des großen Umfangs der Thematik der
 Rasterelektronenmikroskopie, werden hier nur sehr grob die Grundlagen
-skizziert. Für weiterführende Informationen, sei auf \cite{unterlagen}
+skizziert. Für weiterführende Informationen, sei auf~\cite{unterlagen}
 verwiesen.
 
 Rasterelektronenmikroskopie funktioniert, indem ein ein gebündelter
@@ -36,22 +63,22 @@ unterschieden.
 
 Der grobe Aufbau eines Rasterelektronenmikroskops ist im folgenden kurz erklärt
 und ist in \autoref{fig:aufbaurem} ersichtlich. Von der Elektronenquelle aus
-werden die Elektronen zur AAnode hin mit einer bestimmten
+werden die Elektronen zur Anode hin mit einer bestimmten
 Beschleunigungsspannung ausgesendet und durch einen Aufbau von Elektronenlinsen
 auf die zu untersuchende Probe hin gebündelt. Der gesamte Aufbau befindet sich
-in Vakuum, umm dafür zu sorgen, dass die Elektronen unterwegs nicht mit
+in Vakuum, um dafür zu sorgen, dass die Elektronen unterwegs nicht mit
 irgendwelchen anderen Molekülen zusammentreffen oder elektrische Überschläge
 stattfinden. Die Probenhalterung bietet Platz für mehrere Proben und ist in die
 3 Koordinatenachsen, sowie Drehung und Rotation, bewegbar, um möglichst
-effizientes Arbeiten zu ermöglichen.\cite{unterlagen}
+effizientes Arbeiten zu ermöglichen.~\cite{unterlagen}
 
 \begin{figure}[]
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/aufbaurem.png}
 	\end{center}
-	\caption[Aufbau eines Rasterelektronenmikroskops] {Aufbau eines
-		Rasterelektronenmikroskops \cite{unterlagen}
-	} \label{fig:aufbaurem}
+	\caption[Aufbau eines Rasterelektronenmikroskops]{Aufbau eines
+		Rasterelektronenmikroskops~\cite{unterlagen}
+	}\label{fig:aufbaurem}
 \end{figure}
 
 \section{Proben- und Geräteliste}
@@ -183,11 +210,10 @@ In diesem Teil des Versuchs wird die Beschleunigungsspannung der Elektronen
 variiert. Wenn diese größer ist, können die Elektronen in tiefere SChichten der
 Probe eindringen, weshalb die oberen, dünnen Schichten transparent wirken.
 
-%todo max du hast die Referenzen einmal zusammengefasst i finds aber nicht mehr
-Die erzeugten Bilder sind in
-\autoref{{fig:5kv},{fig:10kv},{fig:20kv},{fig:30kv}} ersichtlich. Zusätzlich
-wurden Monte Carlo Simulationen zur Verfügung gestellt, die die Bewegung der
-Elektronen nach den Streuungen darstellen, siehe
+Die erzeugten Bilder sind in \autoref{fig:5kv},\ref{fig:10kv},\ref{fig:20kv}
+und~\ref{fig:30kv} ersichtlich. Zusätzlich wurden Monte Carlo Simulationen zur
+Verfügung gestellt, die die Bewegung der Elektronen nach den Streuungen
+darstellen, siehe
 \autoref{fig:simulation5kv},\autoref{fig:simulation10kv},\autoref{fig:simulation20kv},\autoref{fig:simulation30kv}.
 
 %todo es wäre schön wenn auch hier immer Bild und simulation nebeneinander wären
@@ -212,7 +238,7 @@ Elektronen nach den Streuungen darstellen, siehe
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/10kv.png}
 	\end{center}
-	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt} \cite{sein_foto}
+	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt}~\cite{sein_foto}
 	}\label{fig:10kv}
 \end{figure}
 
@@ -220,7 +246,7 @@ Elektronen nach den Streuungen darstellen, siehe
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/simulation10kv.png}
 	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt} \cite{sein_foto}
+	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt}~\cite{sein_foto}
 	}\label{fig:simulation10kv}
 \end{figure}
 
@@ -236,7 +262,7 @@ Elektronen nach den Streuungen darstellen, siehe
 	\begin{center}
 		\includegraphics[width =0.5\textwidth]{./figures/simulation20kv.png}
 	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{20}{\kilo\volt} \cite{sein_foto}
+	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{20}{\kilo\volt}~\cite{sein_foto}
 	}\label{fig:simulation20kv}
 \end{figure}
 
