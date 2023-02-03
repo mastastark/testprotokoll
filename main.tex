@@ -210,76 +210,47 @@ In diesem Teil des Versuchs wird die Beschleunigungsspannung der Elektronen
 variiert. Wenn diese größer ist, können die Elektronen in tiefere SChichten der
 Probe eindringen, weshalb die oberen, dünnen Schichten transparent wirken.
 
-Die erzeugten Bilder sind in \autoref{fig:5kv},\ref{fig:10kv},\ref{fig:20kv}
+Die erzeugten Bilder sind in \autoref{fig:5kv},~\ref{fig:10kv},~\ref{fig:20kv}
 und~\ref{fig:30kv} ersichtlich. Zusätzlich wurden Monte Carlo Simulationen zur
 Verfügung gestellt, die die Bewegung der Elektronen nach den Streuungen
-darstellen, siehe
-\autoref{fig:simulation5kv},\autoref{fig:simulation10kv},\autoref{fig:simulation20kv},\autoref{fig:simulation30kv}.
-
-%todo es wäre schön wenn auch hier immer Bild und simulation nebeneinander wären
+darstellen, siehe \autoref{fig:simulation5kv}, \autoref{fig:simulation10kv},
+\autoref{fig:simulation20kv}, \autoref{fig:simulation30kv}.
 
 \begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/5kv.png}
-	\end{center}
-	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{5}{\kilo\volt}
-	}\label{fig:5kv}
+	\centering
+	\captionbox{Sichtbares Bild bei einer Beschleunigungsspannung
+		von \SI{5}{\kilo\volt}\label{fig:5kv}}{
+		\includegraphics[width=.45\textwidth]{./figures/5kv.png}
+	}
+	\hfill
+	\captionbox{Sichtbares Bild bei einer Beschleunigungsspannung
+		von \SI{10}{\kilo\volt}~\cite{sein_foto}\label{fig:10kv}}{
+		\includegraphics[width=0.45\textwidth]{./figures/10kv.png}
+	}
+
+	\captionbox{Erzeugte Simulation bei einer Beschleunigungsspannung von
+		\SI{5}{\kilo\volt}\label{fig:simulation5kv}}{
+		\includegraphics[width=.45\textwidth]{./figures/simulation5kv.png} } \hfill
+	\captionbox{Erzeugte Simulation bei einer Beschleunigungsspannung von
+		\SI{10}{\kilo\volt}~\cite{sein_foto}\label{fig:simulation10kv} }{
+		\includegraphics[width =.45\textwidth]{./figures/simulation10kv.png} }
 \end{figure}
 
 \begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/simulation5kv.png}
-	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{5}{\kilo\volt}
-	}\label{fig:simulation5kv}
-\end{figure}
+	\captionbox{Sichtbares Bild bei einer Beschleunigungsspannung
+		von \SI{20}{\kilo\volt}\label{fig:20kv}}{
+		\includegraphics[width =.45\textwidth]{./figures/20kv.png} } \hfill
+	\captionbox{Sichtbares Bild bei einer Beschleunigungsspannung
+		von \SI{30}{\kilo\volt}\label{fig:30kv}}{
+		\includegraphics[width =.45\textwidth]{./figures/30kv.png}
+	}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/10kv.png}
-	\end{center}
-	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt}~\cite{sein_foto}
-	}\label{fig:10kv}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/simulation10kv.png}
-	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{10}{\kilo\volt}~\cite{sein_foto}
-	}\label{fig:simulation10kv}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/20kv.png}
-	\end{center}
-	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{20}{\kilo\volt}
-	}\label{fig:20kv}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/simulation20kv.png}
-	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{20}{\kilo\volt}~\cite{sein_foto}
-	}\label{fig:simulation20kv}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/30kv.png}
-	\end{center}
-	\caption{Sichtbares Bild bei einer Beschleunigungsspannung von \SI{30}{\kilo\volt}
-	}\label{fig:30kv}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/simulation30kv.png}
-	\end{center}
-	\caption{Erzeugte Simulation bei einer Beschleunigungsspannung von \SI{30}{\kilo\volt} \cite{sein_foto}
-	}\label{fig:simulation30kv}
+	\captionbox{Erzeugte Simulation bei einer Beschleunigungsspannung von
+		\SI{20}{\kilo\volt}~\cite{sein_foto}\label{fig:simulation20kv} }{
+		\includegraphics[width =.45\textwidth]{./figures/simulation20kv.png} } \hfill
+	\captionbox{Erzeugte Simulation bei einer Beschleunigungsspannung von
+		\SI{30}{\kilo\volt}~\cite{sein_foto}\label{fig:simulation30kv} }{
+		\includegraphics[width =.45\textwidth]{./figures/simulation30kv.png} }
 \end{figure}
 
 In den erzeugten Fotos ist klar erkennbar, dass bei den kleinen Spannungen
@@ -303,22 +274,18 @@ Stelle nur unter Betrachtung der SE oder der BSE untersucht. 2 so erzeugte
 Bilder sind nun beispielhaft in \autoref{fig:se} und \autoref{fig:bse}
 sichtbar.
 
-%todo bitte nebeneinander
-
 \begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/se.png}
-	\end{center}
-	\caption{Erzeugtes Bild mit SE an einer Keramikprobe
-	}\label{fig:se}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width =0.5\textwidth]{./figures/bse.png}
-	\end{center}
-	\caption{Gleiches Bild mit BSE an der Keramikprobe
-	}\label{fig:bse}
+	\centering
+	\begin{subfigure}{.45\linewidth}
+		\includegraphics[width=\textwidth]{./figures/se.png}
+		\caption{Erzeugtes Bild mit SE an einer Keramikprobe
+		}\label{fig:se}
+	\end{subfigure}
+	\begin{subfigure}{.45\linewidth}
+		\includegraphics[width=\textwidth]{./figures/bse.png}
+		\caption{Gleiches Bild mit BSE an der Keramikprobe
+		}\label{fig:bse}
+	\end{subfigure}
 \end{figure}
 
 Es wird klar ersichtlich, dass bei dem, mit SE erzeugten Bild, insbesondere
@@ -388,8 +355,8 @@ Standardabweichung $\sigma$:
 Für die 2 vermessenen Poren ergeben sich folgende Durchmesser:
 
 \begin{align*}
-	d_{gross} = \SI{12900(100)}{\nano\m} \\
-	d_{klein} = \SI{2230(100)}{\nano\m}
+	d_\text{gross} = \SI{12900(100)}{\nano\m} \\
+	d_\text{klein} = \SI{2230(100)}{\nano\m}
 \end{align*}
 
 \section{Qualitative EDX-Analyse}
